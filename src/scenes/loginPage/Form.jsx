@@ -46,7 +46,7 @@ const initialValuesLogin = {
     password: "",
 };
 
-function Form() {
+const Form = () => {
     const [pageType, setPageType] = useState("login");
     const { palette } = useTheme();
     const dispatch = useDispatch();
@@ -308,6 +308,6 @@ function Form() {
             )}
         </Formik>
     );
-}
+};
 
 export default Form;
