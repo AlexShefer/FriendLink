@@ -27,6 +27,10 @@ function LoginPage() {
                 <Typography fontWeight="500" variant="h5" sx={{ mb: "1.5rem" }}>
                     Welcome to FriendLink, the Social Media for Sociopaths!
                 </Typography>
+                <Typography fontWeight="500" variant="h6" sx={{ mb: "1rem" }}>
+                    To explore application use Login: test@account.com and
+                    password: 123456789
+                </Typography>
                 <Form />
             </Box>
         </Box>
